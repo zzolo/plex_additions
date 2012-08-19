@@ -1,0 +1,11 @@
+<advancedsettings>
+  <loglevel>1</loglevel>
+  
+  <tvshowmatching action="append">
+    <regexp>[\._ \-]([0-9]+[0-9]+\-[0-9]+\-[0-9]+)([\._ \-][^\\/]*)</regexp>  <!-- foo.1234-01-01 -->
+  </tvshowmatching>
+  
+  <excludefromscan action="append">
+    <regexp>[-\._ ](:2e)[-\._ ]</regexp>
+  </excludefromscan>
+</advancedsettings>
